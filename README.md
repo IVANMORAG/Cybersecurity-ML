@@ -1,7 +1,5 @@
 # Spam-Detection-with-Logistic-Regression
 
-# Detección de Correos Spam con Regresión Logística
-
 ## Descripción
 
 Este repositorio contiene notebooks de Jupyter que exploran la detección de correos spam utilizando regresión logística y otras técnicas de aprendizaje automático. El objetivo es clasificar correos electrónicos en categorías de spam o no spam utilizando diversos métodos de procesamiento de datos y modelos de clasificación.
