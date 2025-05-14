@@ -1,45 +1,67 @@
-# Spam-Detection-with-Logistic-Regression
 
-## Descripción
+# Practical-ml-for-cybersecurity
 
-Este repositorio contiene notebooks de Jupyter que exploran la detección de correos spam utilizando regresión logística y otras técnicas de aprendizaje automático. El objetivo es clasificar correos electrónicos en categorías de spam o no spam utilizando diversos métodos de procesamiento de datos y modelos de clasificación.
+Este repositorio contiene más de 20 ejercicios prácticos aplicados a conjuntos de datos reales para resolver diversos problemas en el ámbito de la seguridad de la información mediante técnicas de Machine Learning.
 
-## Contenidos
+Los ejercicios forman parte de  curso de UDEMY [**_Machine Learning desde cero: Proyectos reales en Python 3._**](https://www.udemy.com/course/machine-learning-desde-cero/?referralCode=008FE3DCE6F9C5EDA6DC), disponible en Udemy, que ofrece una formación práctica y teórica en Machine Learning a lo largo de 30 horas de video.
 
-El proyecto está dividido en los siguientes notebooks:
 
-1. **01_Regresion_Logistica.ipynb**: Implementación de un modelo de regresión logística para la clasificación de correos spam.
 
-2. **02_Visualisacion-del-DataSet.ipynb**: Visualización del dataset para entender mejor las características y patrones de los datos.
+# Instalación
 
-3. **03_División-del-DataSet.ipynb**: División del dataset en conjuntos de entrenamiento y prueba para la validación del modelo.
+Para la ejecución de estos ejercicios se recomienda la instalación de la distribución [Anaconda](https://www.anaconda.com/distribution/), donde se incluyen todas las utilidades necesarias.
 
-4. **04_Preparacion-del-DataSet.ipynb**: Preparación y limpieza de datos para el entrenamiento del modelo.
-
-5. **05_Creacion-de-Transformadores-y-PipeLines-Personalizados.ipynb**: Creación de transformadores personalizados y pipelines para el preprocesamiento de datos.
-
-6. **06_Evaluacion-de-Resultados.ipynb**: Evaluación de los resultados del modelo y análisis de su desempeño.
-
-7. **07_Support-Vector-Machine.ipynb**: Implementación de un modelo de Máquina de Soporte Vectorial (SVM) para comparación con la regresión logística.
-
-## Instalación
-
-Para ejecutar los notebooks, asegúrate de tener instalado Jupyter Notebook y las bibliotecas necesarias. Puedes instalar las dependencias utilizando `pip`:
-
-```bash
-pip install -r requirements.txt
+Una vez instalado Anaconda, pueden descargarse los ejercicios mediante el siguiente comando:
+```
+git clone https://github.com/IVANMORAG/Cybersecurity-ML
 ```
 
-Luego, ejecuta Jupyter Notebook en tu terminal:
+Con la utilidad [Jupyter Notebook](https://jupyter.org) incluida en Anaconda pueden visualizarse y ejecutarse los ficheros descargados.
 
-```bash
-jupyter notebook
-```
+  
+# Índice de los casos prácticos
 
-## Ejecución
+1. **Librerías de Machine Learning**  
+	1.1. [Introducción a Numpy](1_Introducción%20a%20NumPy.ipynb)  
+	1.2. [Introducción a Pandas](2_Introducción%20a%20Pandas.ipynb)   
+	1.3. [Introducción a Matplotlib](3_Introducción%20a%20Matplotlib.ipynb)  
+2. **Regresión y Clasificación**  
+	2.1. [Regresión Lineal: Predicción del coste de un incidente de seguridad](4_Regresión%20Lineal%20-%20Predicción%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb)  
+	2.2. [Regresión Logística: Detección de correos de SPAM](5_Regresión%20Log%C3%ADstica%20-%20Detección%20de%20SPAM.ipynb)  
+3. **Creación de un proyecto de Machine Learning**  
+	3.1. [Visualización del conjunto de datos](6_Visualización%20del%20conjunto%20de%20datos.ipynb)  
+	3.2. [División del conjunto de datos](7_División%20del%20conjunto%20de%20datos.ipynb)  
+	3.3. [Preparación del conjunto de datos](8_Preparación%20del%20conjunto%20de%20datos.ipynb)  
+	3.4. [Creación de Pipelines y Transformadores personalizados](9_Creación%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb)   
+	3.5. [Evaluación de los resultados](10_Evaluación%20de%20resultados.ipynb)   
+4. **Support Vector Machines (SVM)**  
+	4.1. [SVM: Detección de URLs maliciosas](11_Support%20Vector%20Machine%20-%20Detección%20de%20URLs%20maliciosas.ipynb)  
+5. **Árboles de decisión**  
+	5.1. [Árboles de decisión: Detección de malware en Android](12_Árboles%20de%20decisión%20-%20Detección%20de%20malware%20en%20Android.ipynb)  
+	5.2. [Random Forest: Detección de malware en Android](13_Random%20Forests%20-%20Detección%20de%20Malware%20en%20Android.ipynb)  
+6. **Selección y Extracción de características**  
+	6.1. [Técnicas de selección de características](14_Técnicas%20de%20selección%20de%20caracter%C3%ADsticas.ipynb)  
+	6.2. [PCA: Técnicas de extracción de características](15_PCA%20-%20Extracción%20de%20caracter%C3%ADsticas.ipynb)  
+	6.3. [Técnicas de selección del modelo](16_Técnicas%20de%20selección%20del%20modelo.ipynb)  
+7. **Clustering**  
+	7.1. [KMEANS: Detección de transacciones bancarias fraudulentas](17_KMEANS%20-%20Detección%20de%20transacciones%20bancarias%20fraudulentas.ipynb)  
+	7.2. [DBSCAN: Detección de transacciones bancarias fraudulentas](18_DBSCAN%20-%20Detección%20de%20transacciones%20bancarias%20fraudulentas.ipynb)  
+8. **Algoritmos probabilísticos**  
+	8.1. [Naive Bayes: Detección de correos de SPAM](19_Naive%20Bayes%20-%20Detección%20de%20SPAM.ipynb)  
+9. **Detección de Anomalías**  
+	9.1. [Distribución Gaussiana: Detección de transacciones bancarias fraudulentas](20_Distribución%20Gaussiana%20-%20Detección%20de%20transacciones%20bancarias%20fraudulentas.ipynb)  
+	9.2. [Isolation Forest: Detección de transacciones bancarias fraudulentas](21_Isolation%20Forest%20-%20Detección%20de%20transacciones%20bancarias%20fraudulentas.ipynb)   
+10. **Redes Neuronales Artificiales**  
+	10.1. [RNAs: Detección de transacciones bancarias fraudulentas](22_Redes%20Neuronales%20Artificiales%20-%20Detección%20de%20transacciones%20bancarias%20fraudulentas.ipynb)  
 
-Cada notebook contiene celdas con explicaciones y código para seguir el flujo del proyecto. Asegúrate de ejecutar las celdas en orden para obtener los resultados esperados.
 
-## Contribuciones
+# Descarga de los conjuntos de datos
 
-Si deseas contribuir al proyecto, por favor envía un pull request con tus cambios. Asegúrate de seguir las buenas prácticas de codificación y documentar cualquier cambio que realices.
+* [2007 TREC Public Spam Corpus](https://plg.uwaterloo.ca/cgi-bin/cgiwrap/gvcormac/foo07): Conjunto de correos electrónicos de SPAM y legítimos.
+* [NSL-KDD](https://iscxdownloads.cs.unb.ca/iscxdownloads/NSL-KDD/#NSL-KDD): Conjunto de datos con flujos de tráfico de red maliciosos y legítimos.
+* [URL-2016](https://www.unb.ca/cic/datasets/url-2016.html): Conjunto de datos de URLs maliciosas y legítimas.
+* [CICAAGM](https://www.unb.ca/cic/datasets/android-adware.html): Conjunto de tráfico de red producido por aplicaciones Android legítimas y maliciosas.
+* [Creditcard](https://www.kaggle.com/mlg-ulb/creditcardfraud#creditcard.csv): Conjunto de datos con transacciones bancarias legítimas y fraudulentas.
+
+**Para más conjuntos de datos relacionados con el ámbito de la seguridad de la información:**
+* [Awesome Cybersecurity Datasets](https://github.com/shramos/Awesome-Cybersecurity-Datasets)
